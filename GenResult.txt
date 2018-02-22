@@ -1,0 +1,336 @@
+
+CC: 1
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 2
+$6: 3
+$7: 4
+$8: 5
+$9: 6
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :4
+*Instruction :10001100010010010000000000000100
+
+ID/EXE :
+ReadData1 :0
+ReadData2 :0
+Sign_ext :0
+Rs :0
+Rt :0
+Rd :0
+Ctrl Signal :þÿÿ
+
+EXE/MEM :
+AluOut :0
+Writedata:0
+Rt/Rd :0
+Ctrl Signal :
+
+MEM/WB :
+Readdata : 0
+AluOut :0
+Rt/Rd :0
+Ctrl Signal :
+
+==============================================
+
+CC: 2
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 2
+$6: 3
+$7: 4
+$8: 5
+$9: 6
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :8
+*Instruction :00100000000001010000000000001001
+
+ID/EXE :
+ReadData1 :8
+ReadData2 :6
+Sign_ext :4
+Rs :2
+Rt :9
+Rd :0
+Ctrl Signal :000101011
+
+EXE/MEM :
+AluOut :0
+Writedata:0
+Rt/Rd :0
+Ctrl Signal :
+
+MEM/WB :
+Readdata : 0
+AluOut :0
+Rt/Rd :0
+Ctrl Signal :
+
+==============================================
+
+CC: 3
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 2
+$6: 3
+$7: 4
+$8: 5
+$9: 6
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :12
+*Instruction :00000001000001110010000000100101
+
+ID/EXE :
+ReadData1 :0
+ReadData2 :2
+Sign_ext :9
+Rs :0
+Rt :5
+Rd :0
+Ctrl Signal :000100010
+
+EXE/MEM :
+AluOut :12
+Writedata:0
+Rt/Rd :9
+Ctrl Signal :01011
+
+MEM/WB :
+Readdata : 0
+AluOut :0
+Rt/Rd :0
+Ctrl Signal :
+
+==============================================
+
+CC: 4
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 2
+$6: 3
+$7: 4
+$8: 5
+$9: 6
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :16
+Instruction :00000000000000000000000000000000
+
+ID/EXE :
+ReadData1 :5
+ReadData2 :4
+Sign_ext :1949
+Rs :8
+Rt :7
+Rd :4
+Ctrl Signal :110000010
+
+EXE/MEM :
+AluOut :9
+Writedata:0
+Rt/Rd :5
+Ctrl Signal :00010
+
+MEM/WB :
+Readdata : 4
+AluOut :12
+Rt/Rd :9
+Ctrl Signal :1100010
+
+==============================================
+
+CC: 5
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 2
+$6: 3
+$7: 4
+$8: 5
+$9: 4
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :20
+Instruction :00000000000000000000000000000000
+
+ID/EXE :
+ReadData1 :0
+ReadData2 :0
+Sign_ext :0
+Rs :0
+Rt :0
+Rd :0
+Ctrl Signal :
+
+EXE/MEM :
+AluOut :1954
+Writedata:0
+Rt/Rd :7
+Ctrl Signal :00010
+
+MEM/WB :
+Readdata : 0
+AluOut :9
+Rt/Rd :5
+Ctrl Signal :1000010
+
+==============================================
+
+CC: 6
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 9
+$6: 3
+$7: 4
+$8: 5
+$9: 4
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :24
+Instruction :00000000000000000000000000000000
+
+ID/EXE :
+ReadData1 :0
+ReadData2 :0
+Sign_ext :0
+Rs :0
+Rt :0
+Rd :0
+Ctrl Signal :
+
+EXE/MEM :
+AluOut :1954
+Writedata:0
+Rt/Rd :7
+Ctrl Signal :
+
+MEM/WB :
+Readdata : 0
+AluOut :1954
+Rt/Rd :7
+Ctrl Signal :10
+
+==============================================
+
+CC: 7
+
+Register:
+$0: 0
+$1: 9
+$2: 8
+$3: 7
+$4: 1
+$5: 9
+$6: 3
+$7: 1954
+$8: 5
+$9: 4
+
+Data Memory:
+0x00: 5
+0x04: 9
+0x08: 4
+0x0C: 8
+0x10: 7
+
+IF/ID :
+PC :28
+Instruction :00000000000000000000000000000000
+
+ID/EXE :
+ReadData1 :0
+ReadData2 :0
+Sign_ext :0
+Rs :0
+Rt :0
+Rd :0
+Ctrl Signal :
+
+EXE/MEM :
+AluOut :1954
+Writedata:0
+Rt/Rd :7
+Ctrl Signal :
+
+MEM/WB :
+Readdata : 0
+AluOut :1954
+Rt/Rd :7
+Ctrl Signal :
+
+==============================================
